@@ -1,0 +1,162 @@
+body {
+	background-color: #5A5A5A;
+	background-color: #2e2e2e;
+	color: #D3D3D3; 
+	font-family: Arial, serif;
+	font-size: 12pt;
+	text-align: center;
+	font-family: futura-pt, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+	from {opacity: 0;}
+	to {opacity: 1;}
+	}
+
+
+h1 {
+	background-color: #454444;
+	color: #D3D3D3;
+	font-weight: 500;
+	font-style: oblique;
+	font-family: futura-pt, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	
+		}
+		
+p {
+	background-color: #454444;
+	border: solid 3px gray;
+	padding: 5px;
+	margin: 2px;
+	font-family: futura-pt, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+		/* Carved Inside: */
+	border-style: inset;
+	border-width: 4px;
+	border-bottom-color: gray;
+	border-left-color: gray;
+	border-radius: 5px;
+	box-shadow: 0;
+	
+		/* Floating: */
+	/*border-style: outset;
+	border-width: 4px;
+	border-bottom-color: gray;
+	border-left-color: gray;
+	border-radius: 5px;
+	box-shadow: 10px 10px 5px #383838*/
+	
+	
+	
+		}
+		
+ul	{
+	display: inline-block;
+	border: solid 1px black;
+	background-color: #454444;
+	border: solid 3px gray;
+	padding: 17px;
+	margin: 5px;
+	border-style: inset;
+	border-width: 4px;
+	border-bottom-color: gray;
+	border-left-color: gray;
+	border-radius:5px;
+	box-shadow: 0;
+	text-align: left;
+	font-family: futura-pt, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+		}
+
+.equip	{
+	border: solid 1px black;
+	background-color: #454444;
+	border: solid 3px gray;
+	padding: 17px;
+	margin: 5px;
+	border-style: inset;
+	border-width: 4px;
+	border-bottom-color: gray;
+	border-left-color: gray;
+	border-radius:5px;
+	box-shadow: 0;
+		}
+		
+.container1	{
+			margin-left: auto;
+			margin-right: auto;
+				}
+				
+.container2	{
+			display: flex;
+				}
+				
+				
+.links	{
+	border: solid 1px #454444;
+	background-color: #1c1c1c;
+	border: solid 1px #454444;
+	padding: 17px;
+	margin: 5px;
+	border-style: inset;
+	border-width: 3px;
+	border-bottom-color: gray;
+	border-left-color: gray;
+	border-radius:3px;
+	box-shadow: 0;
+	justify-content: space-evenly;
+			}
+
+table, th, td {
+  border: 1px solid #454444;
+  width: 40%;
+}
+
+* {margin: 0;}
+
+nav{
+	width: 100%;
+	background-color: #00000015;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+nav ul{
+	text-align: center;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+nav ul li a{
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-family: futura-pt, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	letter-spacing: 2px;
+	padding: 25px;
+}
+
+nav ul li a:hover{
+	background-color: #b0b0b0;
+	transition: all ease 1s;
+}
+
+header{
+	position: absolute;
+	top: -50px;
+	left: 30px;
+}
